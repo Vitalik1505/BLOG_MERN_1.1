@@ -9,7 +9,7 @@ import { postCreateValidation } from './validations.js'
 
 mongoose
 	.connect(
-		'mongodb+srv://vitalikmicrosoftnote:Nirvana2020@cluster0.j4ave9p.mongodb.net/blog?retryWrites=true&w=majority'
+		'mongodb+srv://vitalikmicrosoftnote:<PASSWORD>@cluster0.j4ave9p.mongodb.net/blog?retryWrites=true&w=majority'
 	)
 	.then(() => console.log('DB ok'))
 	.catch(() => console.log('DB error', err))
